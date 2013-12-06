@@ -31,14 +31,24 @@ bool GameScene::init()
         return false;
     }
     
+    // タップイベントを取得
     setTouchEnabled(true);
     setTouchMode(kCCTouchesOneByOne);
 
+    // 変数初期化
     initForVariables();
+    
+    // 背景表示
     createBackground();
+    
+    // コマ表示
     createBlock();
+    
+    // ラベル表示
     createLabel();
     createHighScoreLabel();
+    
+    // リセットボタン表示
     createResetButton();
     
     SimpleAudioEngine::sharedEngine()->preloadEffect(kSEMoveBlock);

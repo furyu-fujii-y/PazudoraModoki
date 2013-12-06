@@ -10,8 +10,8 @@
 using namespace std;
 using namespace cocos2d;
 
-const int kMaxBlockLeft        = 8;
-const int kMaxBlockTop         = 8;
+const int kMaxBlockLeft        = 5;
+const int kMaxBlockTop         = 5;
 const int kBlockPurgeThreshold = 3;
 
 const float kMovingTime           = 0.4f;
