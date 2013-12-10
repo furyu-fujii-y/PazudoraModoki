@@ -1,5 +1,9 @@
 APPNAME="PazudoraModoki"
 
+# set params
+# NDK_ROOT=/Users/fujii/android-ndk/android-ndk-r9b
+NDK_ROOT=/Users/fujii/android-ndk/android-ndk-r8e
+
 # options
 
 buildexternalsfromsource=
